@@ -1,0 +1,50 @@
+.player-card {
+    width: 60%;
+    height: 60%;
+    border: solid 2px #000;
+    margin-left: 15%;
+    text-align:center
+  }
+  .center{
+    justify-content: center
+  }
+  img {
+    border-radius: 50%;
+  }
+  .grid-container {
+    display: grid;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .grid-container-1 {
+    display: grid;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  }
+  .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .box{
+    width: 10;
+    height: 10;
+    border: solid 2px #000;
+  }
