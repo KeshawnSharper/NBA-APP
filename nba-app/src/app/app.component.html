@@ -15,7 +15,11 @@
     </li>
     <li ngbNavItem>
         <a ngbNavLink>Second</a>
-        <ng-template ngbNavContent>Second content</ng-template>
+        <ng-template ngbNavContent><app-standings></app-standings></ng-template>
       </li>
+      <li ngbNavItem>
+          <a ngbNavLink>Second</a>
+          <ng-template ngbNavContent><app-stats></app-stats></ng-template>
+        </li>
 </ul>
 <div [ngbNavOutlet]="nav"></div>

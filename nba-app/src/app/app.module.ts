@@ -8,13 +8,17 @@ import { PlayersComponent } from './players/players.component';
 import { StoreModule } from '@ngrx/store';
 import { TeamsComponent } from './teams/teams.component';
 import { GamesComponent } from './games/games.component';
+import { StandingsComponent } from './standings/standings.component';
+import { StatsComponent } from './stats/stats.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlayersComponent,
     TeamsComponent,
-    GamesComponent
+    GamesComponent,
+    StandingsComponent,
+    StatsComponent
   ],
   imports: [
     BrowserModule,
